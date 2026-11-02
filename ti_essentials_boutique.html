@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Petits essentiels pratiques pour la maison et le quotidien à Rodrigues et à Maurice.">
+<title>Ti Essentials | Les petits essentiels du quotidien</title>
+<style>
+:root{--ink:#24312d;--muted:#66736d;--cream:#fbf8f1;--sage:#dce8dc;--green:#315b49;--line:#e7e4dc;--white:#fff}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--cream);line-height:1.55}
+header{padding:20px 7%;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);background:#fff}
+.logo{font-weight:800;letter-spacing:1.5px;font-size:20px}.logo span{color:var(--green)}
+nav a{color:var(--ink);text-decoration:none;margin-left:22px;font-size:14px}
+.hero{padding:76px 7%;background:var(--sage);display:grid;grid-template-columns:1.2fr .8fr;gap:30px;align-items:center}
+.eyebrow{text-transform:uppercase;letter-spacing:2px;font-size:12px;color:var(--green);font-weight:bold}
+h1{font-size:clamp(38px,6vw,66px);line-height:1.05;margin:14px 0 18px;max-width:680px}
+.hero p{font-size:18px;color:#45584e;max-width:550px}
+.btn{display:inline-block;background:var(--green);color:white;text-decoration:none;padding:14px 22px;border-radius:5px;font-weight:bold;margin-top:12px}
+.hero-art{min-height:260px;border-radius:18px;background:linear-gradient(145deg,#f8efe0,#e6d6bb);display:flex;align-items:center;justify-content:center;font-size:88px}
+section{padding:58px 7%}.section-head{text-align:center;max-width:650px;margin:0 auto 30px}.section-head h2{font-size:32px;margin:8px 0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{background:white;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.pic{height:175px;background:#eee9df;display:flex;align-items:center;justify-content:center;font-size:62px}
+.card-body{padding:18px}.card h3{margin:0 0 6px}.card p{color:var(--muted);font-size:14px;min-height:44px}.price{font-weight:bold;color:var(--green);font-size:18px}
+.note{font-size:12px;color:var(--muted)}
+.steps{background:#fff}.steps-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:25px;text-align:center}.step{padding:20px}.number{width:42px;height:42px;border-radius:50%;background:var(--sage);display:grid;place-items:center;margin:auto;font-weight:bold;color:var(--green)}
+.contact{background:var(--green);color:#fff;text-align:center}.contact p{color:#e3eee7}.contact .btn{background:#fff;color:var(--green)}
+footer{padding:24px 7%;font-size:12px;color:var(--muted);display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+@media(max-width:720px){header{padding:16px 5%}nav a{margin-left:10px;font-size:12px}.hero{padding:52px 6%;grid-template-columns:1fr}.hero-art{min-height:160px;font-size:65px}.grid,.steps-grid{grid-template-columns:1fr}section{padding:45px 6%}}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">TI <span>ESSENTIALS</span></div>
+  <nav><a href="#produits">Produits</a><a href="#commander">Commander</a></nav>
+</header>
+<main>
+  <div class="hero">
+    <div>
+      <div class="eyebrow">Simple • pratique • utile</div>
+      <h1>Les petits essentiels qui facilitent le quotidien.</h1>
+      <p>Découvre une sélection d’accessoires pratiques pour la maison et tous les jours. Commande facilement par WhatsApp, depuis Rodrigues ou Maurice.</p>
+      <a class="btn" href="#produits">Voir la sélection</a>
+    </div>
+    <div class="hero-art" aria-label="Illustration de produits du quotidien">🧺 🏡</div>
+  </div>
+
+  <section id="produits">
+    <div class="section-head">
+      <div class="eyebrow">Notre sélection</div>
+      <h2>Des essentiels, sans complication.</h2>
+      <p>Voici trois exemples de fiches produits. Remplace les photos, prix et descriptions par les articles réellement disponibles avant de vendre.</p>
+    </div>
+    <div class="grid">
+      <article class="card"><div class="pic">🧴</div><div class="card-body"><h3>Organisateur pratique</h3><p>Pour garder les petits objets bien rangés à la maison.</p><div class="price">Prix à confirmer</div></div></article>
+      <article class="card"><div class="pic">🧽</div><div class="card-body"><h3>Accessoire de nettoyage</h3><p>Un indispensable simple pour les tâches du quotidien.</p><div class="price">Prix à confirmer</div></div></article>
+      <article class="card"><div class="pic">👜</div><div class="card-body"><h3>Accessoire multifonction</h3><p>Un article utile à emporter ou à utiliser chez soi.</p><div class="price">Prix à confirmer</div></div></article>
+    </div>
+    <p class="note" style="text-align:center;margin-top:18px">Les articles et prix présentés sont des exemples de mise en page, pas un stock confirmé.</p>
+  </section>
+
+  <section class="steps">
+    <div class="section-head"><div class="eyebrow">Comment ça marche ?</div><h2>Commander en trois étapes</h2></div>
+    <div class="steps-grid">
+      <div class="step"><div class="number">1</div><h3>Choisis</h3><p>Parcours les articles disponibles.</p></div>
+      <div class="step"><div class="number">2</div><h3>Écris-nous</h3><p>Envoie le nom de l’article et la quantité sur WhatsApp.</p></div>
+      <div class="step"><div class="number">3</div><h3>Confirme</h3><p>Nous confirmons le prix, la disponibilité et la livraison avant paiement.</p></div>
+    </div>
+  </section>
+
+  <section class="contact" id="commander">
+    <div class="eyebrow" style="color:#d9eadf">Une question ou une commande ?</div>
+    <h2>Parlons sur WhatsApp.</h2>
+    <p>Ajoute ton numéro WhatsApp pour activer le bouton de commande.</p>
+    <a class="btn" href="https://wa.me/23000000000?text=Bonjour%2C%20je%20voudrais%20conna%C3%AEtre%20les%20produits%20disponibles." target="_blank" rel="noopener">Écrire sur WhatsApp</a>
+    <p class="note" style="color:#d9eadf">À remplacer : 23000000000 par ton numéro au format international, sans + ni espaces.</p>
+  </section>
+</main>
+<footer><span>© 2026 Ti Essentials — Rodrigues & Maurice</span><span>Prix, stock et livraison à confirmer avant chaque commande.</span></footer>
+</body></html>
